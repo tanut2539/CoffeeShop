@@ -20,8 +20,8 @@ class CoffeeCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        self.priceLabel.clipsToBounds = true
-        self.priceLabel.layer.cornerRadius = 14.0
+        priceLabel.clipsToBounds = true
+        priceLabel.layer.cornerRadius = 14.0
 
     }
     
